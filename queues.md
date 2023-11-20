@@ -1,7 +1,7 @@
 # Intro to Queues
-Intro to queues
+queues
 
-## What is a Queue?
+## What does a queue look like in Python?
 Queues are useful when dealing with data that has to deal with priority. A well known characteristic of queues is First In First Out (FIFO).
 ```py
     queue = [5, 7, 2, 4]
