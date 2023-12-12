@@ -1,13 +1,37 @@
-# What does a queue look like in Python?
-Queues are useful when dealing with data that has requires attention to priority. A well known characteristic of the queue is First In First Out (FIFO). A useful python library called `queue` will help us solve a real world problem and understand how to we can apply python to the real world.
+# Intro to Queues
+Queues are a fundamental data structure that follows the First-In-First-Out (FIFO) principle. Elements are added at the rear and removed from the front, making it an efficient choice for tasks such as managing tasks, processing requests, and more.
 
+### Example of a Queue in Python:
 ```python
-    def main():
-        player_queue = Queue()
+class Queue:
+    def __init__(self):
+        self.items = []
+
+    def enqueue(self, item):
+        self.items.append(item)
+
+    def dequeue(self):
+        if not self.is_empty():
+            return self.items.pop(0)
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def size(self):
+        return len(self.items)
 ```
+### Basic Operations:
+
+| Operation       | Performance | Explanation |
+| --------------- |:-----------:| ----------- | 
+| Enqueue         | O(1)        | Adds an element to the rear of the queue.
+| Dequeue         | O(1)        | Removes the element from the front of the queue.
+| Is Empty        | O(1)        | Checks if the queue is empty.
+| Size            | O(1)        | Returns the number of elements in the queue.
 
 
-## Real World Application / Problem
+
+### Real World Problem: **** 
 The real world problem we will be solving is how to pair together online players waiting in a queue for an opponent.
 
 ## Solution to Real World Application

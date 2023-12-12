@@ -1,3 +1,4 @@
+```py
 from queue import Queue
 
 class Player:
@@ -42,3 +43,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+[back](queues.md)

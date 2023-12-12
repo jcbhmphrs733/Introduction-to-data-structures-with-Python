@@ -1,4 +1,4 @@
-# Welcome to *-Intro to Data Structures with Python-*
+# Welcome to **Intro to Data Structures with Python**
 My name is Jacob Humphreys and I am a student at BYU Idaho. This repository is my final project for my *programming with data structures* class. Here, you can learn about three basic data structures and how to implement them with Python. Each data structure will be accompanied with a small lesson and demonstration problems that we both solve together and on your own.
 
 ## Why data structures?
