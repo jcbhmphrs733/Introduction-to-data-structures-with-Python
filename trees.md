@@ -1,7 +1,7 @@
 # Intro to Trees
 Trees consist of nodes connected by edges and each node in a tree contains data and may link to other nodes, forming parent-child relationships. The top most node is called the root and has a value. The branching structure can be traversed and it's height can be calculated.
 
-![tree_img](images\trees.png) 
+![tree_img](images/trees.png) 
 
 ### Example of a Tree in Python:
 ```python

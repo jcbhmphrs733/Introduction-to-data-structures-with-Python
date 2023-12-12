@@ -1,7 +1,7 @@
 # Intro to Linked Lists
 Linked lists are nodes of data that carry information or data about themselves and also two locations or addresses of memory guiding the computer to the previous and the next nodes in the data structure.
 
-![linked_list_img](images\linked_lists.png)
+![linked_list_img](images/linked_lists.png)
 
 
 ### Example of a Linked List Node in Python:
