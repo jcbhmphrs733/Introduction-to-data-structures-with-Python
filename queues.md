@@ -1,11 +1,7 @@
 # Intro to Queues
 Queues are a fundamental data structure that follows the First-In-First-Out (FIFO) principle. Elements are added at the rear and removed from the front, making it an efficient choice for tasks such as managing tasks, processing requests, and more.
 
-
-<p align="center">
-  <img width="400" height="230" src="images\queues.png">
-</p>
-
+![queues_img](images\queues.png)
 
 ### Example of a Queue in Python:
 ```python
