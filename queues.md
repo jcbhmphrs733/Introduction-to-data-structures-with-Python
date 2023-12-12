@@ -20,7 +20,7 @@ class Queue:
     def size(self):
         return len(self.items)
 ```
-### Basic Operations:
+### Basic Queue Operations:
 
 | Operation       | Performance | Explanation |
 | --------------- |:-----------:| ----------- | 

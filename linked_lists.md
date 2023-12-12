@@ -1,7 +1,7 @@
 # Intro to Linked Lists
 Linked lists are nodes of data that carry information or data about themselves and also two locations or addresses of memory guiding the computer to the previous and the next nodes in the data structure.
 
-### Example of a linked list in Python:
+### Example of a Linked List Node in Python:
 ```python
 class Node:
     def __init__(self, data):
@@ -9,7 +9,7 @@ class Node:
         self.next_node = None
         self.prev_node = None
 ```
-### Basic operations:
+### Basic Linked List Operations:
 
 | Operation       | Performance | Explanation |
 | --------------- |:-----------:| ----------- | 
@@ -21,13 +21,13 @@ class Node:
 
 
 ### Real World Problem: **Navigation System**
-We will implement a navigation system. We will create a program that efficiently manages the city's routes using a linked list.
+We will implement a navigation system. We will create a program that efficiently manages a route using a linked list.
 
 1. Implement a `Location` class with attributes: name (the name of the location) and `next_location` (a reference to the next location in the route).
 1. Develop a `NavigationList` class to manage the route, with a head attribute pointing to the starting location.
 1. Create a function add_location in the `NavigationList` class to add new locations to the route.
 
-## Solution to Real World Application:
+### Solution to Real World Application:
 
 ```py
 class Location:
