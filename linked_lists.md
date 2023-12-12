@@ -20,11 +20,11 @@ class Node:
 | Remove End      | O(1)        | Traverses the list until the second-to-last node is reached and updating its `next_node` to `None`.
 
 
-### Real World Problem: **Navigation System**
-We will implement a navigation system. We will create a program that efficiently manages a route using a linked list.
+## Real World Problem: **Navigation System**
+We will use a linked list to implement a navigation system. We will create a program that efficiently manages a route using a linked list.
 
-1. Implement a `Location` class with attributes: name (the name of the location) and `next_location` (a reference to the next location in the route).
-1. Develop a `NavigationList` class to manage the route, with a head attribute pointing to the starting location.
+1. Create a `Location` class with attributes: name (the name of the location) and `next_location` (a reference to the next location in the route).
+1. Create a `NavigationList` class to manage the route, with a head attribute pointing to the starting location.
 1. Create a function add_location in the `NavigationList` class to add new locations to the route.
 
 ### Solution to Real World Application:
@@ -63,12 +63,12 @@ navigation_system.add_location("Home")
 
 
 
-## Solo Problem Solving:
+### Solo Problem Solving: Display Route
 
 On your own try to add a function to the class `NavigationList` that when called, can display the Location nodes from the navigation list in order. Compare your answer to this solution [here](linked_lists_solution.md).
 
 
-### Navigation
+## Navigation
 - [Welcome Page](welcome.md)
 - [Queues](queues.md)
 - [Trees](trees.md)

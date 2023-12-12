@@ -31,31 +31,52 @@ class Queue:
 
 
 
-### Real World Problem: **** 
-The real world problem we will be solving is how to pair together online players waiting in a queue for an opponent.
+## Real World Problem: Online Player Pairing 
+We will use a queue to implement a program that can pair online players waiting in a queue to play a game. We will ensure that each player is paired with exactly one other player.
 
-## Solution to Real World Application
+1. Implement a Player class with an attribute name.
+2. Create a `PlayerQueue` class that can manage our queue by adding and removing players in respect to [FIFO](#intro-to-queues).
+3. Create a function in the `PlayerQueue` class called `pair_players` that takes a queue of players and pairs them together.
+
+### Solution to Real World Application
 
 ```py
-def pair_players(queue):
-        paired_players = []
-    
-    # Sort the queue based on skill level
-    sorted_players = list(queue.queue)
+class Player:
+    def __init__(self, name):
+        self.name = name
+```
+```py
+class PlayerQueue:
+    def __init__(self):
+        self.players = []
 
-    while len(sorted_players) >= 2:
-        player1 = sorted_players.pop(0)
-        player2 = sorted_players.pop(0)
-        pair = (player1, player2)
-        paired_players.append(pair)
-    return paired_players
+    def enqueue_player(self, player):
+        self.players.append(player)
+
+    def dequeue_player(self):
+        if not self.is_empty():
+            dequeued_player = self.players.pop(0)
+            return dequeued_player
+        else:
+            return None
+        
+    def pair_players(self):
+        paired_players = []
+
+        while len(players) >= 2:
+            player1 = players.pop()
+            player2 = players.pop()
+            pair = (player1, player2)
+            paired_players.append(pair)
+
+        return paired_players
 ```
 
-## Problem solving (solo experience)
+### Problem solving (solo experience)
 
-additional problem solving--
+On your own, try to add an attribute to the `Player` class called `skill_level`. Then add a funciton to the `PlayerQueue` class that will pair players with similar skill levels. Compare your answer to this solution [here](queues_solution.md).
 
-### Navigation
+## Navigation
 - [Welcome Page](welcome.md)
 - [Linked Lists](linked_lists.md)
 - [Trees](trees.md)
