@@ -31,8 +31,6 @@ class Queue:
 | Is Empty        | O(1)        | Checks if the queue is empty.
 | Size            | O(1)        | Returns the number of elements in the queue.
 
-
-
 ## Real World Problem: Online Player Pairing 
 We will use a queue to implement a program that can pair online players waiting in a queue to play a game. We will ensure that each player is paired with exactly one other player.
 
