@@ -1,13 +1,16 @@
 # Intro to Trees
-Trees are hierarchical data structures that consist of nodes connected by edges. Each node in a tree contains data and may link to other nodes, forming parent-child relationships. Trees are widely used in various applications, including file systems, hierarchical structures, and search algorithms. Trees are comprised of nodes that have children nodes and a cascading effect is met with data storage. The top most node is called the root and has a value. The branching structure can be traversed and it's height can be calculated.
+Trees consist of nodes connected by edges and each node in a tree contains data and may link to other nodes, forming parent-child relationships. The top most node is called the root and has a value. The branching structure can be traversed and it's height can be calculated.
+
+<p align="center">
+  <img width="400" height="230" src="images\trees.png">
+</p>
 
 ### Example of a Tree in Python:
 ```python
 class Node:
     def __init__(self, data):
         self.data = data
-        self.left = None
-        self.right = None
+        self.children = []
 ```
 ### Basc Tree Operations:
 
