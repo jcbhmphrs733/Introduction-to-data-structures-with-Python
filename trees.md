@@ -50,10 +50,10 @@ class OrganizationTree:
         self.root = Employee(ceo_name, ceo_title)
 ```
 
-## Solo Problem Solving: Employee Search
+### Solo Problem Solving: Employee Search
 On your own, try to add a function to the OrganizationTree class that searches for an employee by name and returns the corresponding node. Compare your answer to this solution [here](trees_solution.md).
 
-### Navigation
+## Navigation
 - [Welcome Page](welcome.md)
 - [Queues](queues.md)
 - [Linked Lists](linked_lists.md)

@@ -37,3 +37,4 @@ class PlayerQueue:
 
         return paired_players
 ```
+[back](/queues.md)
